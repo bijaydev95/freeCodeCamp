@@ -60,6 +60,9 @@ Copy file from source to destination preserving same mode.
 12. `pwd` Command
  pwd command gives the absolute path, i.e path that starts from the root.
 
-13. `systemctl` Command
+13. `touch` Command
+ touch command is used to create a file.
+ 
+14. `systemctl` Command
 
 This is a command which allows operators to work with the Linux system services. The standard use of the command is `systemctl <OPTION> <SERVICE-NAME>` by providing an `OPTION` (e.g. `start`, `stop`, `status`) and than providing a specific Service Name to act on. You can use the command to get a general status of your Linux services (e.g `systemctl status`). Note that you will either need Administrator access or use `sudo` to elevate your rights to run the command successfully.
